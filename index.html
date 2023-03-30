@@ -23,7 +23,8 @@
             <li>Enter your name and select the set list number 1 or 2.</li>
             <li>Press "Start Experiment" button.</li>
             <li>First, listen to the instrument sounds A and B.<br>
-                Next, choose the level of similarity between sound A and B from options 1~5.<br>
+                Next, choose the level of similarity between sound A and B from options 1~5. 
+                <b>The smaller the number of the options, the more similar the samples are.</b><br>
             </li>
             <li>Press "next" button and start next evaluation.</li>
             <li>When you finish this experiment, press "finish" button and download the result.<br>
@@ -45,7 +46,8 @@
             <li>名前を入力し、セット番号を1または2より選んで下さい。<br>
             <li>"Start Experiment"を押して下さい。</li>
             <li>まず2つの楽器音A, Bを聴いて下さい。<br>
-                次にそれら2つの楽器音がどれくらい似ているかのレベルを1~5の選択肢から選んでください。<br>
+                次にそれら2つの楽器音がどれくらい似ているかのレベルを1~5の選択肢から選んでください。
+                <b>選択肢の番号が小さいほどより似ていることを表しています。</b><br>
             <li>選択を終えたら"next"ボタンを押し、次の実験に進んで下さい。</li>
             <li>評価実験を全て終えたら"finish"ボタンを押して結果をダウンロードして下さい。<br>
                 結果はSlackか下記のメールアドレスに送信して下さい。</li>
@@ -84,15 +86,15 @@
         <p id="audio_a"></p>
         <p id="audio_b"></p>
         <p>
-            <label><input type="radio" name="eval" onclick="evaluation()">5. <b>A</b> and <b>B</b> are very
+            <label><input type="radio" name="eval" onclick="evaluation()">1. <b>A</b> and <b>B</b> are very
                 similar</label><br>
-            <label><input type="radio" name="eval" onclick="evaluation()">4. <b>A</b> and <b>B</b> are relatively
+            <label><input type="radio" name="eval" onclick="evaluation()">2. <b>A</b> and <b>B</b> are relatively
                 similar</label><br>
             <label><input type="radio" name="eval" onclick="evaluation()">3. <b>A</b> and <b>B</b> are a little
                 similar</label><br>
-            <label><input type="radio" name="eval" onclick="evaluation()">2. <b>A</b> and <b>B</b> are not very
+            <label><input type="radio" name="eval" onclick="evaluation()">4. <b>A</b> and <b>B</b> are not very
                 similar</label><br>
-            <label><input type="radio" name="eval" onclick="evaluation()">1. <b>A</b> and <b>B</b> are not at all
+            <label><input type="radio" name="eval" onclick="evaluation()">5. <b>A</b> and <b>B</b> are not at all
                 similar</label><br>
         </p>
 
